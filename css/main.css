@@ -96,6 +96,38 @@ h3 {
     
 }
 
+#Menu {
+  display: flex;
+  flex-direction: row;
+ /* justify-content: flex-end;*/
+  flex-wrap: wrap;
+  width: 95vw;
+}
+
+button {
+  color: #683B05;
+  font-size: 1em;
+  padding: 5px;
+  margin: 3px;
+  border: 2px solid #683B05;
+  border-radius: 20px;
+  margin-left: auto;
+  background-color: #fffddb;
+  box-shadow: rgb(193, 160, 124) 0px 12px 12px;
+  min-width: 150px;
+}
+
+#B9 {
+  align-self: stretch;
+}
+
+button:hover {
+  font-weight: bold;
+  background-color: #C1A07C;
+  border-color: #fffddb;
+  color: #fffddb;
+  box-shadow: rgb(193, 160, 124) 12px 0px 12px;
+}
 
 /*
 *
@@ -247,7 +279,8 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-	color: #683b05;
+	color: #683b05;
+
 	min-height: 2em;
 	font-size: 1.3em;
 	padding: 0.4em;
