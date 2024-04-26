@@ -105,6 +105,7 @@ h3 {
 }
 
 button {
+  width: 100%;
   color: #683B05;
   font-size: 1em;
   padding: 5px;
@@ -114,10 +115,6 @@ button {
   margin-left: auto;
   background-color: #ffeddb;
   box-shadow: rgb(193, 160, 124) 0px 12px 12px;
-}
-
-#B9 {
-  align-self: stretch;
 }
 
 button:hover {
