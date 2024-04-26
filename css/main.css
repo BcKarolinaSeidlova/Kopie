@@ -109,7 +109,7 @@ button {
   font-size: 1em;
   padding: 5px;
   margin: 3px;
-  border: 2px solid #683B05;
+  border: 2px solid #C1A07C;
   border-radius: 20px;
   margin-left: auto;
   background-color: #fffddb;
@@ -258,7 +258,7 @@ button:hover {
 	margin: 1em 0 1em;
 }
 
-.list {
+.list, #Menu {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
