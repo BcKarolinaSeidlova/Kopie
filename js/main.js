@@ -247,14 +247,14 @@ function Show (A, B, C, D, E, F, G, H) {
 
 function ShowAll () {
   if (B9.innerHTML == "Zobrazit vše") {
-  DIV1.style.setProperty("display","block");
-  DIV2.style.setProperty("display","block");
-  DIV3.style.setProperty("display","block");
-  DIV4.style.setProperty("display","block");
-  DIV5.style.setProperty("display","block");
-  DIV6.style.setProperty("display","block");
+  DIV1.style.setProperty("display", "block");
+  DIV2.style.setProperty("display", "block");
+  DIV3.style.setProperty("display", "block");
+  DIV4.style.setProperty("display", "block");
+  DIV5.style.setProperty("display", "block");
+  DIV6.style.setProperty("display", "block");
   DIV7.style.setProperty("display", "block");
-  DIV8.style.setProperty("display", "flex");
+  DIV8.style.setProperty("display", "block");
     
   B9.innerHTML = "Skrýt vše";}
   
