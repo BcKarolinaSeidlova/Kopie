@@ -28,15 +28,15 @@
 	width: 97%;
 }
 
-.list {
+.list, #Menu {
 	display: flex;
 	width: 15%;
 }
 
-/*.nav-list-his*/#Menu {
+/*.nav-list-his, #Menu {
 	display: flex;
 	flex-direction: column;
-}
+}*/
 
 /*.nav-item-his*/ button {
 	justify-content: flex-start;
