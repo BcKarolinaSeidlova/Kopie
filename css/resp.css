@@ -33,12 +33,12 @@
 	width: 15%;
 }
 
-.nav-list-his {
+/*.nav-list-his*/#Menu {
 	display: flex;
 	flex-direction: column;
 }
 
-.nav-item-his {
+/*.nav-item-his*/ button {
 	justify-content: flex-start;
 	font-size: 1.2em;
 	padding: 0.5em;
@@ -164,9 +164,8 @@ tr:hover {
 
 	.foto-his {
 		max-width: 85vw;
-  height: auto;
-  
-	}
+                height: auto;
+        }
 
 	.znak {
 	flex-wrap: wrap;
@@ -182,7 +181,7 @@ tr:hover {
 
 @media screen and (max-width: 530px) {
 
-	.nav-list-his {
+	.nav-list-his, #Menu {
 		font-size: 0.8em; 
 	}
 }
