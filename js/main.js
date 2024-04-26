@@ -8,8 +8,9 @@ let navLinkHis = document.getElementsByClassName('link-his');
 let navHis = document.getElementById('navh');
 
 let ham = document.getElementsByClassName('hamburger')[0];
-let nav =document.getElementsByClassName('navigation')[0];
+let nav = document.getElementsByClassName('navigation')[0];
 let head = document.getElementsByClassName('header')[0];
+let menu = document.getElementById('Menu');
 
 let minus = document.getElementById('minus');
 let plus = document.getElementById('plus');
@@ -62,11 +63,11 @@ window.addEventListener('scroll', sticky);
 
 //Pridava a odebira sticky class v bocni navigaci u historie
 if(window.innerWidth >= 900) {
-	let stickyHis= navHis.offsetTop;
+	let stickyHis= menu.offsetTop;
     if (window.pageYOffset >= stickyHis) {
-    navHis.classList.add('sticky-his');
+    menu.classList.add('sticky-his');
   } else {
-    navHis.classList.remove('sticky-his');
+    menu.classList.remove('sticky-his');
   }
 }
 
@@ -231,18 +232,18 @@ function Show (A, B, C, D, E, F, G, H) {
 
   B9.innerHTML = "Zobrazit vše";
 }
-  else {
-  A.style.setProperty("display", "none");
-  B.style.setProperty("display", "none");
-  C.style.setProperty("display", "none");
-  D.style.setProperty("display", "none");
-  E.style.setProperty("display", "none");
-  F.style.setProperty("display", "none");
-  G.style.setProperty("display", "none");
-  H.style.setProperty("display", "none");
+//  else {
+//  A.style.setProperty("display", "none");
+//  B.style.setProperty("display", "none");
+//  C.style.setProperty("display", "none");
+//  D.style.setProperty("display", "none");
+//  E.style.setProperty("display", "none");
+//  F.style.setProperty("display", "none");
+//  G.style.setProperty("display", "none");
+//  H.style.setProperty("display", "none");
 
-  B9.innerHTML = "Zobrazit vše";
-}
+//  B9.innerHTML = "Zobrazit vše";
+//}
 }
 
 function ShowAll () {
