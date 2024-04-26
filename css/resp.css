@@ -41,9 +41,8 @@
 /*.nav-item-his*/ button {
 	justify-content: flex-start;
 	font-size: 1.2em;
-	padding: 0.5em;
-	text-align: center;
-	height: 2em;
+	padding: 0.5em;l
+	width: 100%;
 	}
 
 .nav-item {
@@ -137,6 +136,11 @@ tr:hover {
           button {
 		  min-width: 150px;
 	  }
+
+	#B9 {
+		width: 100%;
+	}
+	
 	.prev,
 	.next {
 		display: flex;
@@ -166,7 +170,7 @@ tr:hover {
 
 	.foto-his {
 		max-width: 85vw;
-                height: auto;
+               /* height: auto;*/
         }
 
 	.znak {
