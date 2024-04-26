@@ -258,7 +258,7 @@ button:hover {
 	margin: 1em 0 1em;
 }
 
-.list, #Menu {
+.list {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
