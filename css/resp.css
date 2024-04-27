@@ -34,10 +34,9 @@
 	width: 15%;
 }
 
-/*.nav-list-his, #Menu {
-	display: flex;
-	flex-direction: column;
-}*/
+.nav-list-his, #Menu {
+	margin-top: 15px;
+}
 
 /*.nav-item-his*/ button {
 	justify-content: flex-start;
