@@ -134,7 +134,7 @@ tr:hover {
 
 @media screen and (max-width: 899px) {
          button {
-		  min-width: 150px;
+		  width: 150px;
 		  flex-grow: 1;
 	  }
 
@@ -145,6 +145,10 @@ tr:hover {
 
 	.list {
 		width: 100%;
+	}
+
+	.cely-text {
+		width: 98vw;
 	}
 	
 	.prev,
