@@ -28,8 +28,9 @@
 	width: 97%;
 }
 
-.list, #Menu {
+.list {
 	display: flex;
+	flex-direction: column;
 	width: 15%;
 }
 
