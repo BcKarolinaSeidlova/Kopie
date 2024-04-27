@@ -222,7 +222,7 @@ button:hover, :active {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 90vw;
+	width: 88vw;
 	padding-top: 4vh;
 }
 
@@ -254,7 +254,7 @@ button:hover, :active {
 .list {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 12vw;
 }
 
 .nav-list-his {
