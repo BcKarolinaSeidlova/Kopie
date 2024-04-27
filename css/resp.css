@@ -134,7 +134,7 @@ tr:hover {
 
 @media screen and (max-width: 899px) {
          button {
-		  width: 120px;
+		  width: 150px;
 		  flex-grow: 1;
 	  }
 
@@ -199,6 +199,10 @@ tr:hover {
 
 	.nav-list-his, #Menu {
 		font-size: 0.8em; 
+	}
+
+	button {
+		width: 120px;
 	}
 }
 
