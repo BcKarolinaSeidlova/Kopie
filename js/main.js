@@ -232,18 +232,18 @@ function Show (A, B, C, D, E, F, G, H) {
 
   B9.innerHTML = "Zobrazit vše";
 }
-//  else {
-//  A.style.setProperty("display", "none");
-//  B.style.setProperty("display", "none");
-//  C.style.setProperty("display", "none");
-//  D.style.setProperty("display", "none");
-//  E.style.setProperty("display", "none");
-//  F.style.setProperty("display", "none");
-//  G.style.setProperty("display", "none");
-//  H.style.setProperty("display", "none");
+ else if (A == DIV8) {
+  A.style.setProperty("display", "flex");
+  B.style.setProperty("display", "none");
+  C.style.setProperty("display", "none");
+  D.style.setProperty("display", "none");
+  E.style.setProperty("display", "none");
+  F.style.setProperty("display", "none");
+  G.style.setProperty("display", "none");
+  H.style.setProperty("display", "none");
 
-//  B9.innerHTML = "Zobrazit vše";
-//}
+  B9.innerHTML = "Zobrazit vše";
+}
 }
 
 function ShowAll () {
@@ -255,7 +255,7 @@ function ShowAll () {
   DIV5.style.setProperty("display", "block");
   DIV6.style.setProperty("display", "block");
   DIV7.style.setProperty("display", "block");
-  DIV8.style.setProperty("display", "block");
+  DIV8.style.setProperty("display", "flex");
     
   B9.innerHTML = "Skrýt vše";}
   
