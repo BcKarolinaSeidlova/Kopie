@@ -96,12 +96,15 @@ h3 {
     
 }
 
-/*#Menu {
+#Menu {
   display: flex;
-justify-content: center;
   flex-wrap: wrap;
-  width: 95vw;
-}*/
+  justify-content: center;
+}
+
+#Menu:last-child {
+  width: 100%;	
+}
 
 button {
   color: #683B05;
