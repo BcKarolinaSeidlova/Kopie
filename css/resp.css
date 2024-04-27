@@ -133,7 +133,7 @@ tr:hover {
 
 
 @media screen and (max-width: 899px) {
-          button {
+         button {
 		  min-width: 150px;
 		  flex-grow: 1;
 	  }
@@ -141,6 +141,10 @@ tr:hover {
 	#Menu {
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.list {
+		width: 100%;
 	}
 	
 	.prev,
