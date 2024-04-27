@@ -100,6 +100,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 15px;
 }
 
 #Menu:last-child {
@@ -118,7 +119,7 @@ button {
   box-shadow: rgb(193, 160, 124) 0px 12px 12px;
 }
 
-button:hover {
+button:hover, :active {
   font-weight: bold;
   background-color: #C1A07C;
   border-color: #ffeddb;
@@ -264,11 +265,11 @@ button:hover {
 .nav-list-his {
 	display: flex;
 	flex-direction: row;
- flex-wrap: wrap;
+        flex-wrap: wrap;
 	justify-content: center;
 	padding-left: 0px;
 	margin-bottom: 10px;
- width: 90%;
+        width: 90%;
 }
 
 .nav-item-his {
@@ -282,13 +283,13 @@ button:hover {
 	font-size: 1.3em;
 	padding: 0.4em;
 	text-align: center;
- min-width: 30%;
+        min-width: 30%;
 }
 
 .nav-item-his:hover {
 	background: rgba(193,160,124,1);
-    color: white;
-    cursor: pointer;
+        color: white;
+        cursor: pointer;
 }
 
 .nadpis {
@@ -520,7 +521,7 @@ td:nth-child(4) {
 .sticky-his {
     position: fixed;
     top: 0;
-    width: 12%;
+    width: 15%;
 }
 
 .fotogalerie {
