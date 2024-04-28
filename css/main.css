@@ -15,6 +15,9 @@ body {
 	width: 95vW;
 }
 
+h1 {
+   font-size: 2em;
+}
 h1, h2, h3 {
 	margin-bottom: 0;
 	font-variant: small-caps;
@@ -477,7 +480,7 @@ td:nth-child(4) {
 * SLIDESHOW
 */
 
-.slideshow {
+/*.slideshow {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -485,7 +488,7 @@ td:nth-child(4) {
 	margin-top: 25px;
 	margin-bottom: 10px;
 	width: 44vW;
-}
+}*/
 
 .slide {
 	max-width: 90vW;
@@ -541,7 +544,9 @@ figcaption {
 }
 
 .foto-his {
+	max-width: 45vw;
 	height: auto;
+	align-self: center;
 }
 
 .fotogalerie>div {
