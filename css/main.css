@@ -15,9 +15,6 @@ body {
 	width: 95vW;
 }
 
-h1 {
-   font-size: 2em;
-}
 h1, h2, h3 {
 	margin-bottom: 0;
 	font-variant: small-caps;
@@ -106,6 +103,7 @@ h3 {
 }
 
 button {
+  width: 90%;
   color: #683B05;
   font-size: 1em;
   padding: 5px;
