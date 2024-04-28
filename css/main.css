@@ -109,10 +109,8 @@ button {
   color: #683B05;
   font-size: 1em;
   padding: 5px;
-  margin: 3px;
   border: 2px solid #C1A07C;
   border-radius: 20px;
-  margin-left: auto;
   background-color: #ffeddb;
   box-shadow: rgb(193, 160, 124) 0px 12px 12px;
 }
