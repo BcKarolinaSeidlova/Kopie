@@ -43,6 +43,7 @@
 	font-size: 1em;
 	padding: 5px;
 	margin-left: 0px;
+	width: 15%;
 	}
 
 .nav-item {
@@ -111,7 +112,7 @@ height: 100%;
 }
 
 .slide {
-	max-width: 75%;
+	max-width: 90%;
 }
 
 .fotogalerie {
@@ -134,6 +135,7 @@ tr:hover {
 
 @media screen and (max-width: 899px) {
          button {
+		  font-size: 1em;
 		  width: 150px;
 		  flex-grow: 1;
 	  }
