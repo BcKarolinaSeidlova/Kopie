@@ -541,7 +541,7 @@ figcaption {
 }
 
 .foto-his {
-	height: 400px;
+	height: auto;
 }
 
 .fotogalerie>div {
