@@ -163,7 +163,7 @@ function changeHeight () {
     let height = document.getElementsByClassName('slideshow')[0].offsetHeight;
     plus.style.height = height+"px";
     minus.style.height = height+"px";
-    let img = document.getElementsByClassName('foto-his');
+    let img = document.getElementsByTagName('img');
     if (img.length != 0) {
         height = img[slideIndex-1].offsetHeight;
         plus.style.height = height+"px";
