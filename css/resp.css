@@ -28,6 +28,10 @@
 	width: 97%;
 }
 
+h1 {
+	font-size: 2em;
+}
+	
 .list {
 	display: flex;
 	flex-direction: column;
@@ -38,17 +42,13 @@
 	margin-top: 15px;
 }
 
-button {
-	width: 90%;
-	margin-left: 0px;
-}
 
 /*.nav-item-his*/ button {
 	justify-content: flex-start;
 	font-size: 1em;
 	padding: 5px;
 	margin-left: 0px;
-	width: 15%;
+	width: 90%;
 	}
 
 .nav-item {
