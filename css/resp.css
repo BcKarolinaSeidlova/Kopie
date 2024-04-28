@@ -40,9 +40,9 @@
 
 /*.nav-item-his*/ button {
 	justify-content: flex-start;
-	font-size: 1.2em;
-	padding: 0.5em;
-	width: 90%;
+	font-size: 1em;
+	padding: 5px;
+	margin-left: 0px;
 	}
 
 .nav-item {
