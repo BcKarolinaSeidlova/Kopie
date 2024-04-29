@@ -292,7 +292,9 @@ button:hover, button:active {
 }
 
 #DIV1, #DIV2, #DIV3, #DIV4, #DIV5, #DIV6, #DIV7, #DIV8 {
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: justify;
 }
 
 
