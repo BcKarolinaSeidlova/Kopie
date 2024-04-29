@@ -208,7 +208,7 @@ B9.addEventListener("click", ShowAll);
 
 
 function Show (A, B, C, D, E, F, G, H) {
-  if (A.style.getPropertyValue("display") == "none") {
+  if (A.style.getPropertyValue("display") == "none" || undefined) {
    A.style.setProperty("display", "block");
    B.style.setProperty("display", "none");
    C.style.setProperty("display", "none");
