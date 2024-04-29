@@ -216,21 +216,9 @@ function Show (A, B, C, D, E, F, G, H) {
    G.style.setProperty("display", "none");
    H.style.setProperty("display", "none");
                                                       
-   B9.innerHTML = "Zobrazit vše";
-    
-} else if (A.style.getPropertyValue("display") == "flex" && B.style.getPropertyValue("display") == "flex")
-{
-  B.style.setProperty("display", "none");
-  C.style.setProperty("display", "none");
-  D.style.setProperty("display", "none");
-  E.style.setProperty("display", "none");
-  F.style.setProperty("display", "none");
-  G.style.setProperty("display", "none");
-  H.style.setProperty("display", "none");
-
-  B9.innerHTML = "Zobrazit vše";
+   B9.innerHTML = "Zobrazit vše";   
 }
-  
+  else {console.log(A.style.getPropertyValue("display") == "flex")}
 }
 
 function ShowAll () {
