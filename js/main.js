@@ -206,7 +206,6 @@ B9.addEventListener("click", ShowAll);
 
 
 function Show (A, B, C, D, E, F, G, H) {
-  if (A.style.getPropertyValue("display") == "none") {
    A.style.setProperty("display", "flex");
    B.style.setProperty("display", "none");
    C.style.setProperty("display", "none");
@@ -217,8 +216,7 @@ function Show (A, B, C, D, E, F, G, H) {
    H.style.setProperty("display", "none");
                                                       
    B9.innerHTML = "Zobrazit vše";   
-}
-  else {console.log(A.style.getPropertyValue("display") == "flex")}
+
 }
 
 function ShowAll () {
