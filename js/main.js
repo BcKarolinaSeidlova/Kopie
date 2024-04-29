@@ -98,15 +98,13 @@ navItem.addEventListener('click', function(){
 }
 
 //linky u tlacitek v historii - bocni navigace
-for (let i = 0; i<navItemsHis.length; i++) {
-    let navItemHis = navItemsHis[i];
-let linkHis = navLinkHis[i];
-navItemHis.addEventListener('click', function(){
-
-    linkHis.click()
-});
-
-}
+//for (let i = 0; i<navItemsHis.length; i++) {
+//    let navItemHis = navItemsHis[i];
+//let linkHis = navLinkHis[i];
+//navItemHis.addEventListener('click', function(){
+//    linkHis.click()
+//});
+//}
 
 
 
@@ -208,8 +206,8 @@ B9.addEventListener("click", ShowAll);
 
 
 function Show (A, B, C, D, E, F, G, H) {
-  if (A.style.getPropertyValue("display") == "none" || undefined) {
-   A.style.setProperty("display", "block");
+  if (A.style.getPropertyValue("display") == "none") {
+   A.style.setProperty("display", "flex");
    B.style.setProperty("display", "none");
    C.style.setProperty("display", "none");
    D.style.setProperty("display", "none");
@@ -220,7 +218,7 @@ function Show (A, B, C, D, E, F, G, H) {
                                                       
    B9.innerHTML = "Zobrazit vše";
     
-} else if (A.style.getPropertyValue("display") == "block" && B.style.getPropertyValue("display") == "block")
+} else if (A.style.getPropertyValue("display") == "flex" && B.style.getPropertyValue("display") == "flex")
 {
   B.style.setProperty("display", "none");
   C.style.setProperty("display", "none");
@@ -232,29 +230,18 @@ function Show (A, B, C, D, E, F, G, H) {
 
   B9.innerHTML = "Zobrazit vše";
 }
- else if (A == DIV8) {
-  A.style.setProperty("display", "flex");
-  B.style.setProperty("display", "none");
-  C.style.setProperty("display", "none");
-  D.style.setProperty("display", "none");
-  E.style.setProperty("display", "none");
-  F.style.setProperty("display", "none");
-  G.style.setProperty("display", "none");
-  H.style.setProperty("display", "none");
-
-  B9.innerHTML = "Zobrazit vše";
-}
+  
 }
 
 function ShowAll () {
   if (B9.innerHTML == "Zobrazit vše") {
-  DIV1.style.setProperty("display", "block");
-  DIV2.style.setProperty("display", "block");
-  DIV3.style.setProperty("display", "block");
-  DIV4.style.setProperty("display", "block");
-  DIV5.style.setProperty("display", "block");
-  DIV6.style.setProperty("display", "block");
-  DIV7.style.setProperty("display", "block");
+  DIV1.style.setProperty("display", "flex");
+  DIV2.style.setProperty("display", "flex");
+  DIV3.style.setProperty("display", "flex");
+  DIV4.style.setProperty("display", "flex");
+  DIV5.style.setProperty("display", "flex");
+  DIV6.style.setProperty("display", "flex");
+  DIV7.style.setProperty("display", "flex");
   DIV8.style.setProperty("display", "flex");
     
   B9.innerHTML = "Skrýt vše";}
