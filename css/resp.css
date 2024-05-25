@@ -123,8 +123,12 @@ height: 100%;
 .fotogalerie {
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: flex-start;
 	}
+
+.fotogalerie > h3 {
+	text-align: center;
+	width: 100%;
+}
 
 .smerovka {
 	font-size: 1.2em;
