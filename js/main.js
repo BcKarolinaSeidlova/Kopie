@@ -142,10 +142,10 @@ function showDivs(n) {
     for (let i = 0; i < x.length; i++) {
         x[i].style.display = 'none'; 
     }
-    x[slideIndex-1].style.display = 'flex'; 
-let width = x[slideIndex-1].offsetWidth;
-    plus.style.width = 0.5*width+"px";
-    minus.style.width = 0.5*width+"px";
+   // x[slideIndex-1].style.display = 'flex'; 
+   // let width = x[slideIndex-1].offsetWidth;
+  //  plus.style.width = 0.5*width+"px";
+  //  minus.style.width = 0.5*width+"px";
 
    // function changeHeight () {
   //  plus.style.height = height+"px";
