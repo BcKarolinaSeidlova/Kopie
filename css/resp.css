@@ -166,7 +166,7 @@ tr:hover {
 	}
 	
 	.prev,
-	.next {
+	.next { height: 30px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -181,11 +181,13 @@ tr:hover {
 	.next {
 	  right: 0.3em;
 	  margin-right: 0.6em;
+		width: 50%;
 	}
 
 	.prev {
 		left: 0.3em;
 		margin-left: 0.6em;
+		width: 50%;
 	}
 
 	.nav-item-his {
