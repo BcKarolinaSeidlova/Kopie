@@ -512,11 +512,20 @@ td:nth-child(4) {
     top: 0;
     width: 18%;
 }
+#minus {
+	justify-content: flex-start;
+	margin: 0px;
+}
+
+#plus {
+	justify-content: flex-end;
+	margin: 0px;
+}
 
 .fotogalerie {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	justify-content: center;
 	width: 95vW;
 }
 
