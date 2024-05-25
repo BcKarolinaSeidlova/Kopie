@@ -143,11 +143,12 @@ function showDivs(n) {
         x[i].style.display = 'none'; 
     }
     x[slideIndex-1].style.display = 'flex'; 
-   // let width = x[slideIndex-1].offsetWidth;
-  //  plus.style.width = 0.5*width+"px";
-  //  minus.style.width = 0.5*width+"px";
+	
+   let height = x[slideIndex-1].offsetHeight;
+    plus.style.height = height+"px";
+    minus.style.height = height+"px";
 
-   // function changeHeight () {
+    //function changeHeight () {
   //  plus.style.height = height+"px";
   //  minus.style.height = height+"px";}
 }
