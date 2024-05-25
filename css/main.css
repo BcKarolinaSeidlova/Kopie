@@ -480,16 +480,6 @@ td:nth-child(4) {
 * SLIDESHOW
 */
 
-/*.slideshow {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-top: 25px;
-	margin-bottom: 10px;
-	width: 44vW;
-}*/
-
 .slide {
 	max-width: 90vW;
 	height: auto;
@@ -520,7 +510,7 @@ td:nth-child(4) {
 .sticky-his {
     position: fixed;
     top: 0;
-    width: 15%;
+    width: 18%;
 }
 
 .fotogalerie {
@@ -544,8 +534,7 @@ figcaption {
 }
 
 .foto-his {
-	max-width: 45vw;
-	height: auto;
+	height: 95vh;
 	align-self: center;
 }
 
