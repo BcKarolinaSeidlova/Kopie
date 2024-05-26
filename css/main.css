@@ -524,7 +524,7 @@ td:nth-child(4) {
 
 .fotogalerie {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 95vW;
@@ -547,9 +547,9 @@ figcaption {
 	font-size: 1.3em;
 }
 
-.foto-his {
-	/*height: 95vh;
-	align-self: center;*/
+#foto {
+	display: flex;
+	justify-content: center;
 }
 
 .fotogalerie>div {
