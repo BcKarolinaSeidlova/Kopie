@@ -136,7 +136,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
 
-    let x = document.getElementsByClassName('slide');
+    let x = document.getElementsByTagName('img');
     if (n > x.length) {slideIndex = 1} 
     if (n < 1) {slideIndex = x.length} ;
     for (let i = 0; i < x.length; i++) {
@@ -148,10 +148,10 @@ function showDivs(n) {
     plus.style.height = height+"px";
     minus.style.height = height+"px";
 
-	console.log('vyska je: "+height);
-    //function changeHeight () {
-  //  plus.style.height = height+"px";
-  //  minus.style.height = height+"px";}
+
+    function changeHeight () {
+    plus.style.height = height+"px";
+    minus.style.height = height+"px";}
 }
 
 //Eventlisterners pro tlačítka na slideshow
