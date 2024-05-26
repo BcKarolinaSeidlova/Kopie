@@ -148,6 +148,7 @@ function showDivs(n) {
     plus.style.height = height+"px";
     minus.style.height = height+"px";
 
+	console.log('vyska je: "+height);
     //function changeHeight () {
   //  plus.style.height = height+"px";
   //  minus.style.height = height+"px";}
