@@ -525,6 +525,7 @@ td:nth-child(4) {
 .fotogalerie {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 95vW;
 }
