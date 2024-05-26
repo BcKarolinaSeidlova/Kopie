@@ -178,17 +178,16 @@ tr:hover {
 		text-shadow: -1px 0 #683b05, 0 1px #683b05, 1px 0 #683b05, 0 -1px #683b05;
 	}
 
-	.next {
+	/*.next {
 	  right: 0.3em;
 	  margin-right: 0.6em;
-		width: 50%;
 	}
 
 	.prev {
 		left: 0.3em;
 		margin-left: 0.6em;
 		width: 50%;
-	}
+	}*/
 
 	.nav-item-his {
 		font-size: 1.1em;
