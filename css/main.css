@@ -512,27 +512,13 @@ td:nth-child(4) {
     top: 0;
     width: 18%;
 }
-#minus {
-	justify-content: flex-start;
-	margin: 0px;
-}
-
-#plus {
-	justify-content: flex-end;
-	margin: 0px;
-}
 
 .fotogalerie {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 95vW;
-}
-
-.fotogalerie > h3 {
 	width: 100%;
-	text-align: center;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	max-width: 50vW;
 }
 
 .fotogalerie > figure {
@@ -547,11 +533,10 @@ figcaption {
 	font-size: 1.3em;
 }
 
-#foto {
-	display: flex;
-	justify-content: center;
+.foto-his {
+	height: 400px;
 }
 
-/*.fotogalerie>div {
+.fotogalerie>div {
 	height: 40vh;
-}*/
+}
