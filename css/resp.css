@@ -116,20 +116,15 @@ height: 100%;
 
 }
 
+.slide {
+	max-width: 90%;
+}
+
 .fotogalerie {
-		/*flex-direction: row;
-		justify-content: space-between;*/
-	        width: 65vw;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
 	}
-
-.fotogalerie > h3 {
-	text-align: center;
-	width: 100%;
-}
-
-.foto-his {
-	height: 50vh;
-}
 
 .smerovka {
 	font-size: 1.2em;
