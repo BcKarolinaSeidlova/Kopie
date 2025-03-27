@@ -83,6 +83,7 @@ h3 {
 .nav-item {
 	width: 95%;
 	font-size: 1.4em;
+	flex-direction: row;
     
 
 }
