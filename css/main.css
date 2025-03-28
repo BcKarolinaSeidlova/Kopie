@@ -531,7 +531,7 @@ td:nth-child(4) {
 	align-items: flex-start;
 }
 
-.foto {
+#foto {
 	display: flex;
 	flex-direction: row;
 }
