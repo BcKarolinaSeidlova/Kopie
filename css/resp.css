@@ -174,12 +174,10 @@ tr:hover {
 
 	.next {
 	  right: 0.3em;
-	  margin-right: 0.6em;
 	}
 
 	.prev {
 		left: 0.3em;
-		margin-left: 0.6em;
 	}
 
 	.nav-item-his {
