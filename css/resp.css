@@ -10,7 +10,7 @@
 }
 .navigation {
 	display: flex;
-	height: 1.8em;
+	height: auto;
 	padding: 0px 5px 0px;
 	width: 98%;
 	}
@@ -52,6 +52,7 @@ h1 {
 	}
 
 .nav-item {
+	weight: auto;
 	padding: 10px;
 	text-align: center;
 	font-size: 1.3em;
