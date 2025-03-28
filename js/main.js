@@ -144,14 +144,14 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = 'flex'; 
 	
-   let height = document.getElementsByTagName('img')[slideIndex-1].offsetHeight;
-    plus.style.height = height+"px";
-    minus.style.height = height+"px";
+  // let height = document.getElementsByTagName('img')[slideIndex-1].offsetHeight;
+ //   plus.style.height = height+"px";
+//    minus.style.height = height+"px";
 
 
-    function changeHeight () {
-    plus.style.height = height+"px";
-    minus.style.height = height+"px";}
+  //  function changeHeight () {
+  //  plus.style.height = height+"px";
+ //   minus.style.height = height+"px";}
 }
 
 //Eventlisterners pro tlačítka na slideshow
@@ -159,17 +159,17 @@ plus.addEventListener('click', function() {plusDivs(1)});
 minus.addEventListener('click', function() {plusDivs(-1)});
 
 //zmeni vysku tlacitek pri zmene velikosti obrazku
-function changeHeight () {
-    let height = document.getElementsByClassName('slideshow')[0].offsetHeight;
-    plus.style.height = height+"px";
-    minus.style.height = height+"px";
-    let img = document.getElementsByTagName('img');
-    if (img.length != 0) {
-        height = img[slideIndex-1].offsetHeight;
-        plus.style.height = height+"px";
-    minus.style.height = height+"px";
-    }
-}
+// function changeHeight () {
+//    let height = document.getElementsByClassName('slideshow')[0].offsetHeight;
+ //   plus.style.height = height+"px";
+ //   minus.style.height = height+"px";
+ //   let img = document.getElementsByTagName('img');
+ //   if (img.length != 0) {
+ //       height = img[slideIndex-1].offsetHeight;
+ //       plus.style.height = height+"px";
+ //   minus.style.height = height+"px";
+//    }
+// }
 window.addEventListener('load', changeHeight);
 window.addEventListener('resize', changeHeight);
 
