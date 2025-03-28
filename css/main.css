@@ -490,7 +490,9 @@ td:nth-child(4) {
 }
 
 .slide {
-	max-width: 90vW;
+	max-width: 80vW;
+	flex-direction: column;
+	justify-content: center;
 
 }
 .btn {
