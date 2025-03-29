@@ -124,8 +124,8 @@ height: 100%;
 
 .fotogalerie {
 		flex-direction: row;
-		justify-content: space-between;
-		align-items: flex-start;
+		justify-content: center;
+		align-items: center;
 	}
 
 .smerovka {
