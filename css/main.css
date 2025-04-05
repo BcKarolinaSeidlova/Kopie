@@ -535,6 +535,8 @@ td:nth-child(4) {
 #foto {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .fotogalerie > figure {
